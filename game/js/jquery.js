@@ -38,8 +38,8 @@ function przegrana(){
 							$nowy.attr('class','0')
 								 .find('p').html('O')
 								 .css({'position':'absolute',
-								 'top':'20%',
-					  			 'left':'14%'});alert ('Przegrałeś!');
+								 'top':'40%',
+					  			 'left':'40%'});alert ('Przegrałeś!');
 								 exit();}
  }
 }
@@ -61,8 +61,8 @@ function step(){
 if((sumX==2)&&(sumO!==1)){
 			$nowy.attr('class','0')														 	  			 .find('p').html('O')
 				 .css({'position':'absolute',
-				 'top':'20%',
-				 'left':'14%'});
+				 'top':'40%',
+				 'left':'40%'});
 				 exit();} 
  }
 }
@@ -102,8 +102,8 @@ function przegrana2(){
 								$nowy.attr('class','0')
 									.find('p').html('O')
 									.css({'position':'absolute',
-									'top':'20%',
-					  				'left':'14%'});alert ('Przegrałeś!');exit();}
+									'top':'40%',
+					  				'left':'40%'});alert ('Przegrałeś!');exit();}
  }
 }
 function step2(){	
@@ -123,8 +123,8 @@ function step2(){
 			if((sumX==2)&&(sumO!==1)){
 						$nowy.attr('class','0')													    	 .find('p').html('O')
 							 .css({'position':'absolute',
-							 'top':'20%',
-					  		 'left':'14%'});exit();} 
+							 'top':'40%',
+					  		 'left':'40%'});exit();} 
  }
 }
 function wygrana3(){	
@@ -160,8 +160,8 @@ function przegrana3(){
 								$nowy.attr('class','0')
 									 .find('p').html('O')
 									 .css({'position':'absolute',
-									 'top':'20%',
-					  				 'left':'14%'});alert ('Przegrałeś!');exit();}
+									 'top':'40%',
+					  				 'left':'40%'});alert ('Przegrałeś!');exit();}
 }	
 function step3(){	
 			var sumO=0,sumX=0;
@@ -179,8 +179,8 @@ function step3(){
 			if((sumX==2)&&(sumO!==1)){
 					$nowy.attr('class','0')																 .find('p').html('O')
 						 .css({'position':'absolute',
-						 'top':'20%',
-					  	 'left':'14%'});exit();}
+						 'top':'40%',
+					  	 'left':'40%'});exit();}
 }
 function wygrana4(){	
 			var sumO=0,sumX=0;
@@ -215,8 +215,8 @@ function przegrana4(){
 								$nowy.attr('class','0')
 									 .find('p').html('O')
 									 .css({'position':'absolute',
-									 'top':'20%',
-					  				 'left':'14%'});alert ('Przegrałeś!');exit();}
+									 'top':'40%',
+					  				 'left':'40%'});alert ('Przegrałeś!');exit();}
 }	
 function step4(){	
 			var sumO=0,sumX=0;
@@ -234,8 +234,8 @@ function step4(){
 				if((sumX==2)&&(sumO!==1)){
 						$nowy.attr('class','0')															 .find('p').html('O')
 							 .css({'position':'absolute',
-							 'top':'20%',
-					  		 'left':'14%'});exit();}
+							 'top':'40%',
+					  		 'left':'40%'});exit();}
 }
 alert('Witam! Rozpocznij grę "kółko i krzyżyk". Wygraj komputer! ');
 $('table td').click(function(){
@@ -245,8 +245,8 @@ $('table td').click(function(){
 		$(this).find('div').attr('class','1')
 				.find('p').html('X')
 				.css({'position':'absolute',
-								'top':'20%',
-					  			'left':'14%'});
+								'top':'40%',
+					  			'left':'40%'});
 		var zajeta=$(this).find('div').attr('id'),
 			liczbaNiePustych=0;
 		$('table td').each(function(){
@@ -262,8 +262,8 @@ $('table td').click(function(){
 						$(this).find('div').attr('class','0')
 								.find('p').html('O')
 								.css({'position':'absolute',
-								'top':'20%',
-					  			'left':'14%'});
+								'top':'40%',
+					  			'left':'40%'});
  }
 })
 }		else if (wygrana()){wygrana();}
@@ -294,8 +294,8 @@ $('table td').click(function(){
 						$(this).find('div').attr('class','0')
 								.find('p').html('O')
 								.css({'position':'absolute',
-								'top':'20%',
-					  			'left':'14%'});
+								'top':'40%',
+					  			'left':'40%'});
 	   }
 	 })
 	}

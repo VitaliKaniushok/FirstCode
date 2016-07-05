@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 *{
 	margin: 0;
 	padding: 0;
@@ -27,21 +28,28 @@ container{
 	right: 0;
 }
 h2{
-	margin:15% 10%;
+	margin: 8% ;
 	color:#ffffff;
-	font-size: 2.5vw;
+	font-size: 30px;
+	width: 40vw;
+	text-align: center;
 }
-#right a,p{
+#right img{
+	width: 30vw;
+	margin: 0 20%;
+	
+}
+#right  p{
 	margin:0 30%;
-	font-size: 1vw;
+	font-size: 20px;
 	color:#ffffff;
 	text-align: center;
 	width: 35%;
 }
 #right p:nth-child(4){
 	width:90%;
-	margin: 10% 5% 5% 5%;
-	font-size: 1.5vw;
+	margin: 5% 5%;
+	font-size: 25px;
 	color:#000000;
 }
 #right a:nth-child(1){
@@ -68,9 +76,37 @@ footer {
 	height: 5%;
 	bottom: 0;
 	background-color: black;
-	font-size: 1.5vw;
+	font-size: 20px;
 	color: azure;
 }
 footer p{
 	margin: 0.2% 2% 0;
+}
+@media screen and (max-width:800px){
+	#right {
+		width:100%;
+		top:95%;
+	}
+	#left{
+		width:100%;
+	}
+	footer{
+		display: none;
+		position: absolute;
+	}
+	#right img{
+		margin-left:35%;
+	}
+	h2{
+		width: 50%;
+		margin-left: 25%;
+		font-size: 5vw;
+	}
+	#right p:nth-child(4){
+		font-size: 5vw;
+	}
+	#right p:nth-child(3){
+		margin-left: 33%;
+		font-size: 3vw;
+	}
 }
