@@ -6,50 +6,61 @@
 html,body{
 	width: 100%;
 	height: 100%;
-}
-container{
-	height: 100%;
-	width: 100%;
-}
-#left img{
-	width: 100%;
+	}
+
+#container{
+	position: relative;
+	min-width: 200px;
+	max-width: 1920px;
+	min-height: 100%;
+	height: auto !important;
 	height: 100%;
 }
 #left{
 	position: absolute;
 	width: 50%;
-	height: 95%;
+	height: auto!important;
+	min-height: 100%;
+	height: 100%;
+	background-image:url('../KrzyrzykKolko.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover; /* Firefox 3.6+ */
+	-webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: cover; /* Opera 9.6+ */
 }
 #right{
 	position: absolute;
 	width: 50%;
-	background:radial-gradient(at left,cyan,indigo);
-	height: 95%;
+	height: auto !important;
+	min-height: 100%;
+	height: 100%;
 	right: 0;
+	background:radial-gradient(at left,cyan,indigo);
 }
 h2{
-	margin: 8% ;
+	margin-left:10%;
+	padding: 2% 2% 1%;
 	color:#ffffff;
-	font-size: 30px;
+	font-size: 3vw;
 	width: 40vw;
 	text-align: center;
 }
 #right img{
-	width: 30vw;
-	margin: 0 20%;
-	
+	width: 35vw;
+	margin-left:20%;
 }
 #right  p{
-	margin:0 30%;
-	font-size: 20px;
+	margin-left: 37%;
+	font-size: 1.5vw;
 	color:#ffffff;
 	text-align: center;
 	width: 35%;
 }
 #right p:nth-child(4){
 	width:90%;
-	margin: 5% 5%;
-	font-size: 25px;
+	margin-left: 5%;
+	font-size: 1.3vw;
 	color:#000000;
 }
 #right a:nth-child(1){
@@ -59,21 +70,25 @@ h2{
 }
 #pole{
 	position: absolute;
-	width: 30%;
-	height: 20%;
+	width: 300px;
+	height: auto !important;
+	min-height: 200px;
 	border-spacing: 0 0 ;
-	left: 20%;
+	left: 10%;
 	top: 10%;	
 }
 #pole td{
 	position: relative;
-	border:0.2vw solid black;
+	border: solid #000000;
 	background-color: azure;
+}
+#pole th{
+	border: solid #000000;
 }
 footer {
 	position: absolute;
+	clear: both;
 	width: 100%;
-	height: 5%;
 	bottom: 0;
 	background-color: black;
 	font-size: 20px;
@@ -82,31 +97,49 @@ footer {
 footer p{
 	margin: 0.2% 2% 0;
 }
-@media screen and (max-width:800px){
-	#right {
-		width:100%;
-		top:95%;
+@media only screen and (max-width:768px){
+.major{
+	width: 100%;
 	}
-	#left{
-		width:100%;
+#right {
+	width:100%;
+	height: 100%;
+}
+#left{
+	width:100%;
+	height: 100%;
+}
+footer{
+	font-size: 3vw;
+	height: 4vw;
+}
+#pole{
+	position: absolute;
+	width: 40vw;
+	height: 40vw;
+	border-spacing: 0 0 ;
+	left: 20%;
+	top: 10%;	
+}
+#pole p{
+	font-size:4vw; 
+}
+#right img{
+	margin-left:37%;
+	width:25vw;
 	}
-	footer{
-		display: none;
-		position: absolute;
-	}
-	#right img{
-		margin-left:35%;
-	}
-	h2{
-		width: 50%;
-		margin-left: 25%;
-		font-size: 5vw;
-	}
-	#right p:nth-child(4){
-		font-size: 5vw;
-	}
-	#right p:nth-child(3){
-		margin-left: 33%;
-		font-size: 3vw;
-	}
+h2{
+	width: 80%;
+	margin-left: 10%;
+	font-size:4vw;
+	padding: 5%;
+}
+#right p:nth-child(4){
+	font-size: 3vw;
+	margin-top:1%;
+}
+#right p:nth-child(3){
+	margin-left: 33%;
+	font-size: 2vw;
+}
 }
