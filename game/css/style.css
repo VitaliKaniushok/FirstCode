@@ -1,45 +1,43 @@
 *{box-sizing: border-box;}
 *{
-	margin: 0;
-	padding: 0;
+	margin 	:0;
+	padding :0;
 }
 html,body{
 	width: 100%;
 	height: 100%;
-	}
-
-#container{
-	position: relative;
-	min-width: 200px;
-	max-width: 1920px;
+}
+body{
+	
 	min-height: 100%;
-	height: auto !important;
-	height: 100%;
+
 }
 #left{
-	position: absolute;
+	position: relative;
+	float: left;
 	width: 50%;
 	height: auto!important;
-	min-height: 100%;
-	height: 100%;
-	background-image:url('../KrzyrzykKolko.jpg');
+	min-height: 96%;
+	height: 96%;
+	background-image: url('../KrzyrzykKolko.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
-	-moz-background-size: cover; /* Firefox 3.6+ */
-	-webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
-	-o-background-size: cover; /* Opera 9.6+ */
+	background-size: 100%;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
 }
 #right{
-	position: absolute;
+	position: relative;
+	float: left;
 	width: 50%;
 	height: auto !important;
-	min-height: 100%;
-	height: 100%;
+	min-height: 96%;
+	height: 96%;
 	right: 0;
 	background:radial-gradient(at left,cyan,indigo);
 }
 h2{
-	margin-left:10%;
+	margin-left: 10%;
 	padding: 2% 2% 1%;
 	color:#ffffff;
 	font-size: 3vw;
@@ -48,48 +46,45 @@ h2{
 }
 #right img{
 	width: 35vw;
-	margin-left:20%;
+	margin-left: 20%;
 }
 #right  p{
 	margin-left: 37%;
-	font-size: 1.5vw;
-	color:#ffffff;
+	font-size: 2vw;
+	color: #ffffff;
 	text-align: center;
 	width: 35%;
 }
 #right p:nth-child(4){
-	width:90%;
-	margin-left: 5%;
-	font-size: 1.3vw;
-	color:#000000;
+	width: 90%;
+	margin: 5%;
+	font-size: 2vw;
+	color: #000000;
 }
 #right a:nth-child(1){
 	margin: 0;
-	color:white;
-	text-decoration:underline;
+	color: #ffffff;
+	text-decoration: underline;
 }
 #pole{
-	position: absolute;
-	width: 300px;
-	height: auto !important;
-	min-height: 200px;
+	position: relative;
+	margin-bottom: 42%;
+	width: 20vw;
+	height: 20vw;
 	border-spacing: 0 0 ;
-	left: 10%;
+	left: 20%;
 	top: 10%;	
 }
 #pole td{
 	position: relative;
-	border: solid #000000;
+	border: 0.1em solid #000000;
 	background-color: azure;
 }
-#pole th{
-	border: solid #000000;
-}
+
 footer {
-	position: absolute;
+	position: relative;
 	clear: both;
-	width: 100%;
-	bottom: 0;
+	min-height: 4%;
 	background-color: black;
 	font-size: 20px;
 	color: azure;
@@ -98,45 +93,39 @@ footer p{
 	margin: 0.2% 2% 0;
 }
 @media only screen and (max-width:768px){
-.major{
+#left{
 	width: 100%;
 	}
 #right {
-	width:100%;
-	height: 100%;
-}
-#left{
-	width:100%;
-	height: 100%;
+	width: 100%;
 }
 footer{
 	font-size: 3vw;
 	height: 4vw;
 }
 #pole{
-	position: absolute;
 	width: 40vw;
-	height: 40vw;
-	border-spacing: 0 0 ;
+	height:40vw;
 	left: 20%;
-	top: 10%;	
+	top: 20%;
+	margin-bottom: 20%;
 }
 #pole p{
-	font-size:4vw; 
-}
+	font-size: 4vw;
+	}
 #right img{
-	margin-left:37%;
+	margin-left: 37%;
 	width:25vw;
 	}
 h2{
 	width: 80%;
-	margin-left: 10%;
-	font-size:4vw;
+	margin: 5% auto;
+	font-size: 6vw;
 	padding: 5%;
 }
 #right p:nth-child(4){
 	font-size: 3vw;
-	margin-top:1%;
+	margin-top: 1%;
 }
 #right p:nth-child(3){
 	margin-left: 33%;
