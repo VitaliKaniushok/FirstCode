@@ -3,14 +3,14 @@
 	margin 	:0;
 	padding :0;
 }
-html,body{
+html{
 	width: 100%;
 	height: 100%;
+	
 }
 body{
-	
+	height: 100%;
 	min-height: 100%;
-
 }
 #left{
 	position: relative;
@@ -36,6 +36,14 @@ body{
 	right: 0;
 	background:radial-gradient(at left,cyan,indigo);
 }
+#inAdraw{
+	
+	margin: 1% 20%; 
+	width: 40%;
+	height: 10vw;
+	font-size: 3vw;
+	margin-bottom: 3%;
+}
 h2{
 	margin-left: 10%;
 	padding: 2% 2% 1%;
@@ -44,9 +52,22 @@ h2{
 	width: 40vw;
 	text-align: center;
 }
+h3{
+	margin-left: 5%;
+	padding: 2% 2% 1%;
+	color:rgb(0, 57, 37);
+	font-size: 2vw;
+	width: 40%;
+	}
+#reset{
+	margin-left: 7%;
+	font-size: 1.5vw;
+	width: 10vw;
+	height: 3vw;
+}
 #right img{
-	width: 35vw;
-	margin-left: 20%;
+	width: 15vw;
+	margin-left: 37%;
 }
 #right  p{
 	margin-left: 37%;
@@ -57,7 +78,7 @@ h2{
 }
 #right p:nth-child(4){
 	width: 90%;
-	margin: 5%;
+	margin: 7%;
 	font-size: 2vw;
 	color: #000000;
 }
@@ -68,9 +89,8 @@ h2{
 }
 #pole{
 	position: relative;
-	margin-bottom: 42%;
 	width: 20vw;
-	height: 20vw;
+	height: 15vw;
 	border-spacing: 0 0 ;
 	left: 20%;
 	top: 10%;	
@@ -108,7 +128,6 @@ footer{
 	height:40vw;
 	left: 20%;
 	top: 20%;
-	margin-bottom: 20%;
 }
 #pole p{
 	font-size: 4vw;
@@ -130,5 +149,18 @@ h2{
 #right p:nth-child(3){
 	margin-left: 33%;
 	font-size: 2vw;
+}
+#reset{
+	width: 20%;
+	height: 15%;
+	font-size: 4vw;
+}
+h3{
+	font-size: 3vw;	
+}
+	#inAdraw{
+	width: 60%;
+	font-size: 5vw;	
+	margin-bottom: 5%;
 }
 }

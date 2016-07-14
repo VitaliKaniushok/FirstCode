@@ -1,5 +1,23 @@
 $(document).ready(function() {
 
+$('#reset').click(function(){
+		$('table td').each(function(){
+			$(this).find('div').attr('class','none')
+					.find('p').html('');
+})	
+		$('#inAdraw').html('');
+ })
+function inAdraw(){
+	var suma=0;
+	$('table td').each(function(){
+		if(($(this).find('div').hasClass('1'))||($(this).find('div').hasClass('0'))){
+					suma=suma+1;} 
+})
+	if (suma==9){
+		$('#inAdraw').html('Zwyciężyła przyjażń:)')
+					 .css({'color':'blue'})
+	}
+}
 function wygrana(){	
 		for (i=0;i<=6;i=k){
 		var sumO=0,sumX=0,
@@ -7,16 +25,16 @@ function wygrana(){
 		for (j=n;j<=k;j++){
 			$('table td').each(function(){
 			if (($(this).find('div').attr('id')==j)){
-				if(($(this).find('div').attr('class'))==1){
+			if(($(this).find('div').attr('class'))==1){
 					sumX=sumX+1;} 
 				else if (($(this).find('div').attr('class'))==0) { 
 						sumO=sumO+1;}
-				else {  $nowy=$(this).find('div');}		
+				else {  $nowy=$(this).find('div');}	
 	}
  })
 } 
 			if(sumX==3){ 
-				alert('!Wygrałeś!');exit();} 
+				alert('Gratuluję!Wygrałeś!');exit();} 
  }
 }	
 function przegrana(){	
@@ -81,7 +99,7 @@ function wygrana2(){
 })
 } 
 			if(sumX==3){
-				alert('!Wygrałeś!');exit();} 
+				alert('Gratuluję!Wygrałeś');exit();} 
  }
 }
 function przegrana2(){	
@@ -141,7 +159,7 @@ function wygrana3(){
 })
 } 
 		if(sumX==3){
-					alert('!Wygrałeś!');exit();}
+					alert('Gratuluję!Wygrałeś');exit();}
 }	
 function przegrana3(){	
 			var sumO=0,sumX=0;
@@ -196,7 +214,7 @@ function wygrana4(){
  })
 } 
 				if(sumX==3){
-						alert('!Wygrałeś!');exit();}
+						alert('Gratuluję!Wygrałeś');exit();}
 }	
 function przegrana4(){	
 			var sumO=0,sumX=0;
@@ -237,7 +255,6 @@ function step4(){
 							 'top':'40%',
 					  		 'left':'40%'});exit();}
 }
-alert('Witam! Rozpocznij grę "kółko i krzyżyk". Wygraj komputer! ');
 $('table td').click(function(){
 	if ($(this).find('div').hasClass('1')||$(this).find('div').hasClass('0')){
 		alert('Musisz wybierać puste pola!')
@@ -299,7 +316,7 @@ $('table td').click(function(){
 	   }
 	 })
 	}
-
 } 
+	inAdraw();
 })
 })
