@@ -61,8 +61,8 @@ function solution(&$A) {
 }
 	else echo "(-1)";
 }
-					</pre></p>
-
+					</pre></p>';
+	echo '<a href="../index.html" target="_blank" style="font-size:3vw">Przejść do gry "kółko i krzyrzyk"</a>
 	</div>
 	</body>
 	</html>';

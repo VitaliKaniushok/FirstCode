@@ -9,7 +9,6 @@ echo'
 	</head>
 	<body>
 		<div class="container" style="background-color:grees; font-size: 14px;">
-			<section>
 				<h2>ZADANIE:</h2>
 				<p>Jest dana tablica liczb całkowitych <b>$A = array {A[i],..,A[n]}</b>.
 				<br>
@@ -63,7 +62,8 @@ function solution(&$A) {
 	else 
 		echo "(-1)";
 }
-			</section>
+		</pre></p>';
+	echo '<a href="../index.html" target="_blank" style="font-size:3vw">Przejść do gry "kółko i krzyrzyk"</a>
 		</div>
 	</body>
 	</html>';
