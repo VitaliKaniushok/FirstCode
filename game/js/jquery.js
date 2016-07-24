@@ -14,7 +14,7 @@ function inAdraw(){
 					suma=suma+1;} 
 })
 	if (suma==9){
-		$('#inAdraw').html('Zwyciężyła przyjażń:)')
+		$('#inAdraw').html('***REMIS***')
 					 .css({'color':'blue'})
 	}
 }
