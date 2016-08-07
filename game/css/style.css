@@ -10,6 +10,7 @@ body{
 	position: relative;
 	display:table;
 	width: 100%;
+	text-shadow: 0 0 0.2vw;
 }
 #container{
 	position: relative;
@@ -34,24 +35,27 @@ body{
 	font-size:2vw;
 }
 #left{
-	background-image: url('../KrzyrzykKolko.jpg');
+	background:radial-gradient(at bottom right,cyan,indigo);
 	background-repeat: no-repeat;
 	background-size:100%;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='KrzyrzykKolko.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='KrzyrzykKolko.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#FF0000FF, endColorStr=#FFFFFFFF, GradientType=1);  
+    /* Ð”Ð»Ñ Internet Explorer 8 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF0000FF, endColorstr=#FFFFFFFF)";
 }
 #right{
-	background:radial-gradient(at left,cyan,indigo);
+	background:radial-gradient(at bottom left,cyan,indigo);
 	/* Ð”Ð»Ñ Internet Explorer 5.5 - 7 */  
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#FF0000FF, endColorStr=#FFFFFFFF, GradientType=1);  
     /* Ð”Ð»Ñ Internet Explorer 8 */  
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF0000FF, endColorstr=#FFFFFFFF, GradientType=1)";  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF0000FF, endColorstr=#FFFFFFFF)";  
 }  
 #inAdraw{
-	position:fixed;
-	width:15%;
-	top:40%;
-	left: 8%;
+	position:relative;
+	width:45%;
+	height: 14%;
+	top:10%;
+	left: 23%;
+	font-size: 3vw;
 }
 h2{
 	margin: 5% 15%;
@@ -62,51 +66,66 @@ h2{
 	text-align: center;
 }
 h3{
-	position: absolute;
+	position: relative;
 	margin-left: 5%;
 	padding: 2% 2% 1%;
 	color:rgb(0, 57, 37);
+	font-size: 1.2vw;
 	width: 40%;
-	top:85%;
 }
 #reset{
-	position: absolute;
-	top:55%;
-	margin:25% 7% 0;
+	position: relative;
+	background:radial-gradient(at right bottom, #c6c9c6,#101010);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#c6c9c6, endColorStr=#101010);  
+    /* Ð”Ð»Ñ Internet Explorer 8 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#101010, endColorstr=#c6c9c6)";
+	margin:10% 7% 0;
 	font-size: 1.5em;
-	width: 10vw;
-	height: 2.5em;
+	width: 8vw;
+	height: 1.5em;
+	border-style:double;
+	border-radius: 0.8vw;
+	border-width: thick;
+	color: #b5e5b5;
+	box-shadow: 0 0 1.4vw;
 }
 #right img{
 	width: 30%;
+	box-shadow: 0 0 2vw;
 }
 #right p{
 	text-align: center;
 	width: 90%;
-	margin: 7%;
-	font-size: 1.5em;
+	margin: 5%;
+	font-size: 1.2em;
 	color: #000000;
 }
 #right a:nth-child(1){
 	margin: 0;
 	color: #ffffff;
+	
 }
 #pole{
 	background: #000000;
-	position: fixed;
-	width: 20%;
+	position: relative;
+	width: 40%;
 	height: 7em;
-	left: 10%;	
+	left: 30%;
+	top: 10%;
 }
 #pole td{
 	position: relative;
-	background-color: azure;
+	background: linear-gradient(to right bottom,indigo,cyan);
+	background:#ffffff\9;
 }
 @media only screen and (max-width:900px){
 	
 #left,#right{
 	display: table-row;
 }
+	#right{
+		background:radial-gradient(at right top,cyan,indigo)
+	}
 #pole{
 	width: 40vw;
 	height:40vw;
@@ -122,7 +141,7 @@ h3{
 h2{
 	width: 80%;
 	margin: 5% auto;
-	font-size: 6vw;
+	font-size: 4vw;
 	padding: 5%;
 }
 #right p{
@@ -139,15 +158,14 @@ h2{
 	width: 20%;
 	height: 15%;
 	font-size: 4vw;
+	
 }
 h3{
 	font-size: 3vw;	
 }
 	#inAdraw{
 	width: 50%;
-	margin: 2% 25%; 
 	height: 10vw;
 	font-size: 7vw;
-	margin-bottom: 5%;
 }
 }

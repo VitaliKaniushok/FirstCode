@@ -52,8 +52,9 @@
 		<?php echo "<p>$logowanie</p>"?>
 		<br><br>
 		<p>Na ten <a href="mailto:vitalikaniushok@gmail.com">adres </a>można wysyłać pozytywne odpowiedzi z rekrutacji :)</p>
-		<br><p>Pod tym adresem <a href="">na servisie Githuba</a> znajdują się kody tej strony</p>
-	</div>
+		<br><p>Pod tym adresem <a href="https://github.com/VitaliKaniushok/FirstCode/tree/master/Cheil">na servisie Githuba</a> znajdują się kody tej strony</p>
+		<br><p>Przejść na<a href="../index.html"> główną stronę</a></p>
+		</div>
 	</div>
 </body>
 </html>
