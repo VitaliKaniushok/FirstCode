@@ -1,0 +1,100 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa";
+ body {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.2em;
+    color: #52524d;
+}
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.down {
+    padding: 0 7% 0 5%;
+}
+footer {
+    border-top: solid #ebebd9 1px;
+    margin-top: 3%;
+    padding: 1% 0 1% 0;
+}
+footer .nav a {
+    color: #3c3c3a;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    /* IE8 */
+}
+.major .nav a,
+.major {
+    color: #aaaa9f;
+}
+.menu a {
+    color: #000000;
+}
+.navbar-toggle {
+    background-color: #ede6e6;
+}
+.icon-bar {
+    background-color: #8b8686;
+}
+#misja {
+    background: url(../images/misja.png);
+}
+#historia {
+    background: url(..//images/historia2.png);
+}
+#rada {
+    background: url(..//images/rada2.png);
+}
+#sprawdzania {
+    background: url(..//images/sprawdzania.png);
+}
+#statut {
+    background: url(..//images/statut.png);
+}
+#misja,
+#sprawdzania,
+#statut {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 274px;
+}
+#rada,
+#historia {
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.block {
+    padding: 7px;
+    display: inline-block;
+}
+#rada {
+    margin-top: 7px;
+}
+#historia {
+    margin-bottom: 7px;
+    color: #ffffff;
+}
+#misja h2,
+#sprawdzania h2 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 125px;
+}
+#rada h2,
+#historia h2 {
+    text-align: center;
+    padding-top: 55px;
+}
+#statut h2 {
+    text-align: center;
+    padding-top: 140px;
+}
+section h1 {
+    color: #209317;
+}
+aside h3 {
+    color: #000000;
+}
+.left-menu {
+    border-left: solid #bfbfbc 2px;
+}

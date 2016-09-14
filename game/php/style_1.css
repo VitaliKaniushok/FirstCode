@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+}
+body,
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#container {
+    overflow: auto;
+}
+#left,
+#right {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    height: auto!important;
+    min-height: 100%;
+}
+#left {
+    background-image: url('KrzyrzykKolko.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='KrzyrzykKolko.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='KrzyrzykKolko.jpg', sizingMethod='scale')";
+}
+#right {
+    right: 0;
+    background: radial-gradient(at left, cyan, indigo);
+    /* Для Internet Explorer 5.5 - 7 */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr=#FF0000FF, endColorStr=#FFFFFFFF, GradientType=1);
+    /* Для Internet Explorer 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF0000FF, endColorstr=#FFFFFFFF, GradientType=1)";
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 29px;
+    background-color: black;
+    color: white;
+}
+#footer p {
+    padding-left: 3%;
+}
+#inAdraw {
+    margin: 2% 2%;
+    width: 65%;
+    height: 2em;
+    margin-bottom: 3%;
+}
+h2 {
+    margin: 5% 15%;
+    padding: 2% 2% 1%;
+    color: #ffffff;
+    font-size: ;
+    width: 70%;
+    text-align: center;
+}
+h3 {
+    margin-left: 5%;
+    padding: 2% 2% 1%;
+    color: rgb(0, 57, 37);
+    width: 40%;
+}
+#reset {
+    margin-left: 7%;
+    font-size: 1.5vw;
+    width: 10vw;
+    height: 3vw;
+}
+#right img {
+    width: 30%;
+}
+#right p {
+    text-align: center;
+    width: 90%;
+    margin: 7%;
+    font-size: 2vw;
+    color: #000000;
+}
+#right a:nth-child(1) {
+    margin: 0;
+    color: #ffffff;
+}
+#pole {
+    position: relative;
+    width: 40%;
+    height: 7em;
+    border-spacing: 0 0;
+    left: 20%;
+    top: 10%;
+}
+#pole td {
+    position: relative;
+    border: 0.1em solid #000000;
+    background-color: azure;
+}
+@media only screen and (max-width: 768px) {
+    #container {
+        overflow
+    }
+    #left,
+    #right {
+        position: relative;
+        display: inline-block;
+        float: left;
+        height: auto !important;
+        min-height: 100%;
+        height: 100%;
+        width: 100%;
+    }
+    #footer {
+        font-size: 3vw;
+        height: 4vw;
+    }
+    #pole {
+        width: 40vw;
+        height: 40vw;
+        left: 20%;
+        top: 20%;
+    }
+    #pole p {
+        font-size: 4vw;
+    }
+    #right img {
+        margin-left: 37%;
+        width: 25vw;
+    }
+    h2 {
+        width: 80%;
+        margin: 5% auto;
+        font-size: 6vw;
+        padding: 5%;
+    }
+    #right p:nth-child(4) {
+        font-size: 3vw;
+        margin-top: 1%;
+    }
+    #right p:nth-child(3) {
+        margin-left: 8%;
+        font-size: 2vw;
+    }
+    #reset {
+        width: 20%;
+        height: 15%;
+        font-size: 4vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    #inAdraw {
+        width: 50%;
+        margin: 2% 12%;
+        height: 10vw;
+        font-size: 7vw;
+        margin-bottom: 5%;
+    }
+}

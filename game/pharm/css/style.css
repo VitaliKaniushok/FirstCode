@@ -1,0 +1,205 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa";
+ body {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.container-fluid,
+footer {
+    padding-left: 0;
+    padding-right: 0;
+}
+footer .nav a {
+    color: #3c3c3a;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    /* IE8 */
+}
+.social {
+    margin-right: 0;
+}
+.social li a {
+    width: 50px;
+    height: 50px;
+}
+.menu li a {
+    color: #000000;
+    padding: 8px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.language li a {
+    color: #000000;
+    width: 50px;
+    height: 60px;
+}
+.language img {
+    width: 27px;
+    height: 25px;
+}
+.language {
+    font-size: 0.6vw;
+}
+footer {
+    margin-top: 0 5%;
+    padding: 1% 0 1% 0;
+}
+.down {
+    padding: 0 7% 0 5%;
+}
+.btn:focus {
+    color: #ffffff;
+}
+.btn {
+    position: relative;
+    background: transparent;
+    color: #ffffff;
+}
+.btn:hover {
+    color: #bcb2b2;
+}
+.btn:active {
+    color: #ffffff;
+}
+#aktywnosci {
+    background: url(../images/aktywnosci.png);
+}
+#historie {
+    background: url(../images/historje.png);
+}
+#wspolpraca {
+    background: url(../images/wspulpraca.png);
+}
+#rada {
+    background: url(../images/rada.png);
+}
+#jakPomoc {
+    background: url(../images/jakPomoc.png);
+}
+#badania {
+    background: url(../images/badania.png);
+}
+#rada .btn,
+#jakPomoc .btn,
+#wspieranie .btn {
+    color: #000000;
+}
+#rada .btn:hover {
+    color: #bcb2b2;
+}
+#wspieranie .btn:hover {
+    color: #bcb2b2;
+}
+#jakPomoc .btn:hover {
+    color: #bcb2b2;
+}
+#rada .btn:active {
+    color: #1e7e07;
+}
+#jakPomoc .btn:active {
+    color: #1e7e07;
+}
+#wspieranie .btn:active {
+    color: #1e7e07;
+}
+#rada h2,
+#wspieranie h2,
+#aktywnosci h2 {
+    color: #000000;
+}
+#rada,
+#jakPomoc,
+#wspieranie,
+#wspolpraca,
+#badania,
+#aktywnosci,
+#historie {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	width: 100%;
+}
+#aktywnosci,
+#historie,
+#wspieranie,
+#badania {
+    height: 257px;
+}
+#rada,
+#jakPomoc,
+#wspolpraca {
+    height: 165px;
+}
+#rada,
+#wspieranie,
+#aktywnosci {
+    color: rgba(60, 60, 58, 0.56);
+}
+#rada,
+#wspieranie {
+    box-shadow: 0 0 0 1px rgba(60, 60, 58, 0.56);
+}
+.block {
+    padding: 7px;
+}
+.block h2 {
+    padding: 5% 0 0 5%;
+    margin: 0;
+}
+.block p {
+    padding: 0 0 0 5%;
+}
+#wspieranie img {
+    position: absolute;
+    left: 2%;
+    top: 33%;
+}
+#historie {
+    display: table;
+}
+.hist {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hist h2,
+.hist p {
+    padding: 0 15%;
+}
+#aktywnosci .btn {
+    width: 25%;
+    margin-left: 5%;
+    box-shadow: 0px 2px 1px #053417;
+    -ms-filter: progid: DXImageTransform.Microsoft.Shadow(color='#053417', Direction=145, Strength=5);
+    /* IE8 */
+    border-radius: 0;
+    background: linear-gradient(to left, #209317, #84b586);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#209317', ndColorstr='#84b586')";
+    /* IE8 */
+}
+#aktywnosci .btn:active {
+    background: linear-gradient(to top right, #209317, #84b586);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#84b586', ndColorstr='#209317')";
+    /* IE8 */
+    box-shadow: 0 0 0;
+    -ms-filter: progid: DXImageTransform.Microsoft.Shadow(color='', Direction=0, Strength=0)
+}
+.glyphicon-play {
+    color: #209317;
+}
+.glyphicon-play:hover {
+    color: #bcb2b2;
+}
+.glyphicon-play:active {
+    color: #ffffff;
+}
+.two .btn,
+.three .btn {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+.navbar-toggle {
+    background-color: #ede6e6;
+}
+.icon-bar {
+    background-color: #8b8686;
+}

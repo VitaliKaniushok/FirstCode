@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4vw;
+}
+body {
+    display: table;
+}
+.major {
+    display: table;
+    width: 100%;
+}
+.container,
+.container2 {
+    display: table-cell;
+    position: relative;
+    width: 50%;
+}
+.windoww {
+    margin: 4% 15% 2%;
+    width: 40%;
+    border: 1px solid #7A7272;
+    box-shadow: 0 2px 2px;
+}
+.container > h2 {
+    display: inline-block;
+    position: relative;
+    border: 1.2vw solid #7A7272;
+    border-radius: 3vw;
+    background: #7A7272;
+    color: #e2e2f5;
+    margin: 5% 0 0 37%;
+}
+.container > h2:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 20%;
+    top: 150%;
+    border: 1.2vw solid;
+    border-color: #7A7272 transparent transparent #7A7272;
+}
+h1 {
+    border: 1px solid #7A7272;
+    position: relative;
+    background-size: 60%;
+    background-color: #ffffff;
+}
+h1 > p {
+    display: block;
+    width: 75%;
+    height: 1vw;
+    background-color: #07991D;
+    margin: 0;
+    padding: 5%;
+}
+.windoww h2 {
+    color: #2218CC;
+    padding: 3%;
+}
+span {
+    color: #CC1824;
+    font-size: 1.4vw;
+}
+p {
+    padding: 10%;
+    text-align: justify;
+}
+#textId,
+#giveId {
+    width: 40%;
+    height: 4vw;
+    margin: 5% 4% 5%;
+}
+#giveId {
+    background: #07991D;
+    color: #EDF7EF;
+}
+#buttonId1 {
+    margin-left: 15%;
+    width: 19%;
+}
+#buttonId2 {
+    width: 19%;
+    margin-left: 1%;
+}
+#buttonId1,
+#buttonId2 {
+    border-radius: 3px;
+    box-shadow: 1 3 1vw;
+    color: #4d5257;
+}
+.container a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 3% 1%;
+    margin: 5% 17%;
+    width: 34%;
+    border: solid #807575;
+    border-style: double;
+    border-width: thick;
+    box-shadow: 0 0 2vw #807575;
+    border-radius: 1.3vw;
+    background: linear-gradient(to top, #464141, #FAF2F2);
+}
+.container a p:nth-child(2) {
+    color: #231F1F;
+    display: inline-block;
+    padding: 0;
+    margin: 0 4%;
+    font-size: 2vw;
+}
+.star {
+    display: inline-block;
+    position: relative;
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    padding-bottom: 2%;
+    border-right: 1vw solid transparent;
+    border-bottom: 1.3vw solid #615757;
+    border-left: 1vw solid transparent;
+}
+.star:before {
+    border-top: 1.3vw solid #615757;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 0.7vw;
+    left: -0.95vw;
+    display: inline-block;
+    content: '';
+}
+.container2 {
+    background: #94C8EF;
+}
+.container2 p {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background: linear-gradient(to left, #94C8EF, #E5EDF4);
+}

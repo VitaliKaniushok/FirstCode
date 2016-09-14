@@ -1,0 +1,94 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa";
+ body {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.2em;
+    color: #52524d;
+    min-width: 670px;
+}
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.down {
+    padding: 0 7% 0 5%;
+}
+footer {
+    border-top: solid #ebebd9 1px;
+    margin-top: 3%;
+    padding: 1% 0 1% 0;
+}
+aside .nav a {
+    color: #3c3c3a;
+}
+.menu a {
+    color: #000000;
+}
+footer .nav a {
+    color: #3c3c3a;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    /* IE8 */
+}
+.btn:focus {
+    color: #ffffff;
+}
+.navbar-toggle {
+    background-color: #ede6e6;
+}
+.icon-bar {
+    background-color: #8b8686;
+}
+.left-menu {
+    border-left: solid #bfbfbc 2px;
+}
+.image {
+    display: inline-block;
+    width: 13%;
+}
+.paragraf {
+    display: inline-block;
+    width: 86%;
+    padding-left: 5%;
+}
+.paragraf,
+.image {
+    vertical-align: middle;
+    position: relative;
+}
+.btn {
+    width: 25%;
+    color: #ffffff;
+    box-shadow: 0px 2px 1px #053417;
+    -ms-filter: progid: DXImageTransform.Microsoft.Shadow(color='#053417', Direction=145, Strength=5);
+    /* IE8 */
+    border-radius: 0;
+    background: linear-gradient(to left, #209317, #84b586);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#209317', endColorstr='#84b586')";
+    /* IE8 */
+}
+.btn:hover {
+    color: #3c3c3a;
+}
+.btn:active {
+    color: #ffffff;
+    background: linear-gradient(to top right, #209317, #84b586);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#84b586', endColorstr='#209317')";
+    /* IE8 */
+    box-shadow: 0 0 0;
+    -ms-filter: progid: DXImageTransform.Microsoft.Shadow(color='', Direction=0, Strength=0)
+}
+.major span {
+    color: #209317;
+    display: none;
+}
+.major h2 {
+    color: #209317;
+}
+#misja,
+#rada,
+#zespol,
+#statut,
+#sprawozdania {
+    display: none;
+    position: absolute;
+}
